@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
-constexpr int start = 1;
-constexpr int stop = 2;
+constexpr int start = 1;		// used in 'switch' in SIXTH
+constexpr int stop = 2;			// used in 'switch' in SIXTH
 
 // below initalizations concern: 'if' number 'TENTH'
 
@@ -15,7 +15,11 @@ using namespace std;	// instruction used so I do not need to add: 'std::'
 // Chapter_3_Types
 
 /* Description as in commit: 
-
+Chapter_3_Types ilustrates: diferent types of objects in C++ 11; initalization of a variable; 
+constant literals (bool, integer, floating point, nullptr); character constant literals, special characters, wchar_t; 
+handling global and local variable with the same name; specifiers like: specifier const, constexpr, register and volatile; 
+'using' and 'typedef'; description of a enum class with comparison to enum; auto, decltype, initalization with: {}, alignas. 
+This chapter has a program written by author to ilustrate how enum class works.
 */
 
 // this is a definition of a 'enum' type, that is used in 'EIGHTH'
