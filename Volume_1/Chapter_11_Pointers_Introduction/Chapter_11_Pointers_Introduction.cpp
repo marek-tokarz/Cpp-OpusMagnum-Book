@@ -11,13 +11,13 @@ pointer of type *void; importance of initalizing a pointer (by address: &... or 
 using a pointer with a condition with 'if-else'.
 */
 
-#define FIRST		0	// defining a pointer, obtaining an address of a variable
+#define FIRST		1	// defining a pointer, obtaining an address of a variable
 #define SECOND		0	// simple program to ilustrate pointers
 #define THIRD		0	// defining a pointer with an 'auto' and pointer as a lvalue
 #define FOURTH		0	// operator 'reinterpret_cast' and pointers
 #define FIFTH		0	// pointer of type *void
 #define SIXTH		0	// importance of initalizing a pointer (by address: &... or by nullptr)
-#define SEVENTH		1	// using a pointer with a condition with 'if-else'
+#define SEVENTH		0	// using a pointer with a condition with 'if-else'
 
 int main()
 {
@@ -49,8 +49,9 @@ int main()
 		int k = 100;	// defining an object 'k'
 		a = &k;			// assigning an address of object 'k' to a pointer 'a'
 
-		cout << "\nObject 'k' address is (&k): " << &k << 
-			" and its value is (*a): " << *a << " and that value is the same as of expression (k):" << k << "\n";
+		cout << "\nObject 'k' address is (&k): " << &k << endl;
+		cout << "and its value is (*a): " << *a << endl;
+		cout << "and that value is the same as of expression (k):" << k << "\n";
 
 	}
 
@@ -296,6 +297,4 @@ int main()
 		else
 			cout << "'pointer_2' points to a specific object\n";
 	}
-
-
 }
